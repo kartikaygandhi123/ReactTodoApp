@@ -57,7 +57,7 @@ const Todo = () => {
   //   how to delete items
   const deleteItem = (index) => {
     const updatedItems = items.filter((curElem) => {
-      return curElem.id != index;
+      return curElem.id !== index;
     });
     setItems(updatedItems);
   };
